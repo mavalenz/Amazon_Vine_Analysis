@@ -1,19 +1,15 @@
-#Amazon_Vine_Analysis
+# Amazon_Vine_Analysis
 
-##Overview
-###As a data expert at BigMarket we have been assigned a project to analyze
-Amazon reviews written by members of the paid Amazon Vine program. In this project
-we will have access to approximately 50 datasets. We will pick one of these datasets
-and use PySpark to perform the following:
-
+## Overview
+As a data expert at BigMarket we have been assigned a project to analyze Amazon reviews written by members of the paid Amazon Vine program. In this project we will have access to approximately 50 datasets. We will pick one of these datasets and use PySpark to perform the following:
 - ETL process to extract the dataset
 - Transform the data
 - Connect to an AWS RDS instance
 - Load the transformed data into pgAdmin
 - Leverage PySpark, Pandas, or SQL to determine if there is any bias toward favorable reviews from Vine members
 
-##Results
-###The dataset chosen for this challenge was **Pet Products**
+## Results
+The dataset chosen for this challenge was **Pet Products**
 
 *Total Number of Reviews*
 - Number of Vine Reviews: 170
@@ -36,5 +32,5 @@ and use PySpark to perform the following:
 - Percentage of Non-Vine Reviews:54.5%
 ![Percentage_5-Star_Non_Vine_Reviews](https://github.com/mavalenz/Amazon_Vine_Analysis/blob/main/Resources/Percentage_5-Star_Non_Vine_Reviews.PNG)
 
-##Summary
-###In summary, based off our analysis it seems that there isn't a positivity bias for reviews in the Vine program given that the number of reviews were provided by unpaid vine users. Looking at 54% vs 38%. An additional analysis that could be performed with our dataset to support this statement is looking at a statistical distribution calculating the mean, median and mode for both Vine and Non-Vine reviewers.
+## Summary
+In summary, based off our analysis it seems that there isn't a positivity bias for reviews in the Vine program given that the number of reviews were provided by unpaid vine users. Looking at 54% vs 38%. An additional analysis that could be performed with our dataset to support this statement is looking at a statistical distribution calculating the mean, median and mode for both Vine and Non-Vine reviewers.
